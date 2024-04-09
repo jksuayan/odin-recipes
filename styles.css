@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(1, 1, 2);
+    font-family: 'Courier New', Courier, monospace;
+}
+h1 {
+    color: rgb(226, 155, 62);
+    font-weight: bolder;
+    font-size: 100px;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+}
+
+span {
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.recipe {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+
+.images {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+#sns-img {
+    padding: 5px;
+    border: 2px solid white;
+    margin-right: 100px;
+    margin-left: 50px;
+
+}
+
+#paella-img {
+    padding: 5px;
+    border: 2px solid white;
+    margin: 0 100px;
+}
+
+#egg-img {
+    padding: 5px;
+    border: 2px solid white;
+    margin: 0 100px;
+    
+}
+
+#sns {
+    display: inline-block;
+    margin-right: 100px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+#paella {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+#egg {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+
